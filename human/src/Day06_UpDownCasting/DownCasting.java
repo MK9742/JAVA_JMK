@@ -1,0 +1,26 @@
+package Day06_UpDownCasting;
+
+public class DownCasting {
+	public static void main(String[] args) {
+		// 다운캐스팅( 강제형변화)
+		// : 전체 조건 - 업캐스팅
+		// 다운캐스팅은 업캐스팅된 부모 객체를 자식 객체로 변화하는것
+		// - 업캐스팅 : 부모<-자식
+		// - 다운캐스팅 : 부모-> 자식
+		
+		// 업캐스팅
+		Person person = new Student("김휴먼", 20, 1, "산업디자인과");
+		
+		System.out.println(person);
+		System.out.println(person.work());
+		
+		// 다운캐스팅
+		Student student = (Student) person;
+		
+		System.out.println("grade :" + student.grade);
+		System.out.println("major :" + student.major);
+				
+				
+	}
+
+}
