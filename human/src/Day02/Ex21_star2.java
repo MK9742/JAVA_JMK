@@ -1,0 +1,31 @@
+package Day02;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Ex21_star2 {
+
+	public static void main(String[] args) {
+		//입력 : 5
+		//*****
+		//****
+		//***
+		//**
+		//*
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("N:");
+		int N = sc.nextInt();
+		
+		for (int i = 1; i <=N; i++) {
+			
+			for (int j = N; j >=i; j--) {
+				System.out.print("*");				
+			}
+			System.out.println();
+		
+		}
+		sc.close();
+	}
+
+}
