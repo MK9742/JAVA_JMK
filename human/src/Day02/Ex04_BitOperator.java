@@ -9,7 +9,7 @@ public class Ex04_BitOperator {
 		// 20 (십진수) --> 0001 0100 (이진수)
 		// 16 (십진수) --> 0001 0000 (이진수)
 			
-		//Interger.toBinaryString() : 십진수 숫자를 이진수 문자열로 변화하는
+		//Interget.toBinaryString() : 십진수 숫자를 이진수 문자열로 변화하는
 		
 		int result = 20 & 16;
 		System.out.println(result);

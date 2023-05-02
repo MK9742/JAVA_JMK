@@ -123,7 +123,7 @@ public class Main {
 		System.out.print("내용 : ");
 		String content = sc.nextLine();
 		
-		Board board = new Board(title, content, writer);
+		Board board = new Board();
 		return board;
 	}
 	
